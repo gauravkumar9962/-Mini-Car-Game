@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Run</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game">
+
+    <div id="startScreen">
+        <h1>Car Game</h1>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <div id="road">
+        <div id="player"><img src="img/images__1_-removebg-preview.png" style="width: 110px; height: auto; margin-left: -35px;margin-top: -20px;"></div>
+    </div>
+
+    <div id="score">Score: 0</div>
+
+    <div id="gameOver">
+    <h1>Game Over</h1>
+
+    <h2 id="finalScore">Score: 0</h2>
+    <h2 id="highScore">High Score: 0</h2>
+    <button onclick="restartGame()">Reload</button>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
