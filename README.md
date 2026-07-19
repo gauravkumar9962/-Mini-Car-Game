@@ -41,16 +41,12 @@ cd mini-car-race-game
 For example:
 
 ```bash
-# If it's a simple HTML game
 open index.html
 ```
 
 or
 
 ```bash
-
-
-> Update these commands based on your project.
 
 ## 🎯 How to Play
 
@@ -64,11 +60,8 @@ or
 
 | Key | Action |
 |-----|--------|
-| ⬅️ Left Arrow | Move Left |
-| ➡️ Right Arrow | Move Right |
-| ⬆️ Up Arrow | Accelerate *(optional)* |
-| ⬇️ Down Arrow | Brake *(optional)* |
-| Space | Restart Game *(optional)* |
+| ⬅️ Left Arrow | A keyword | Move Left |
+| ➡️ Right Arrow | D keyword | Move Right |
 
 > Modify the controls to match your implementation.
 
@@ -80,13 +73,12 @@ mini-car-race-game/
 │ ├── images/
 │ ├── sounds/
 │
-├── css/
+├── style.css
 │
-├── js/
+├── script.js
 │
 ├── index.html
 ├── README.md
-└── LICENSE
 ```
 
 ## 🛠️ Built With
@@ -116,10 +108,6 @@ Contributions are welcome!
 3. Commit your changes.
 4. Push to your branch.
 5. Open a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License. Feel free to use and modify it.
 
 ---
 
