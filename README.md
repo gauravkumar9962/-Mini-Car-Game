@@ -1,6 +1,4 @@
-# Mini-Car-Game
 
-# Mini-Car-Game
 # 🏎️ Mini Car Race Game
 
 A fun and lightweight racing game where players control a car, avoid obstacles, and survive for as long as possible while aiming for the highest score.
